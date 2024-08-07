@@ -2,7 +2,7 @@ import { MetamaskIcon, WalletConnectIcon } from "assets/icons";
 
 export const DATE_FORMAT = "DD/MM/YYYY";
 export const DATE_FORMAT_FOR_BACKEND = "YYYY-MM-DD hh:mm:ss";
-export const WALLET_CONNECT_PROJECT_ID = "c33877b39c862be3d4abd8ff4dd09ce5";
+export const WALLET_CONNECT_PROJECT_ID = "";
 export const EMPTY_VALUE = "--";
 
 export const REDUX_ACTION = {
@@ -61,8 +61,8 @@ export const WEB3_CHAIN_SUPPORT = {
 export const BASE_TOKEN = {
   BASE_MAINNET: {
     WETH: "0x4200000000000000000000000000000000000006",
-    USDbC: "0xd9aAEc86B65D86f6A7B5B1b0c42FFA531710b6CA",
-    USDC: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    USDbC: "",
+    USDC: "",
   },
 };
 export const SWAP_ROUTE_PATH = {
@@ -208,24 +208,24 @@ export const IS_EMPTY_DATA = "--";
 export const BASE_TOKEN_ADDRESS = {
   BASE_MAINNET: {
     WETH: "0x4200000000000000000000000000000000000006".toLowerCase(),
-    USDC: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913".toLowerCase(),
-    DAI: "0x50c5725949A6F0c72E6C4a641F24049A917DB0Cb".toLowerCase(),
-    USDbC: "0xd9aAEc86B65D86f6A7B5B1b0c42FFA531710b6CA".toLowerCase(),
+    USDC: "".toLowerCase(),
+    DAI: "".toLowerCase(),
+    USDbC: "".toLowerCase(),
   },
 };
 export const ROUTER_ADDRESS = {
   BASE_MAINNET: {
     SWAP_V3: {
-      QUOTER2: "0x3d4e44Eb1374240CE5F1B871ab261CD16335B76a",
-      FACTORY: "0x33128a8fC17869897dcE68Ed026d694621f6FDfD",
+      QUOTER2: "",
+      FACTORY: "",
     },
     SWAP_V2: {
-      FACTORY: "0x8909Dc15e40173Ff4699343b6eB8132c65e18eC6",
+      FACTORY: "",
     },
     PERMIT2: "0x000000000022D473030F116dDEE9F6B43aC78BA3",
-    ROUTER_UNIVERSAL: "0x3fC91A3afd70395Cd496C647d5a6CC9D4B2b7FAD",
-    ROUTER_KYBERSWAP: "0x6131B5fae19EA4f9D964eAc0408E4408b66337b5",
-    TOKEN_IN_IS_ETH_KYBERSWAP: "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE",
+    ROUTER_UNIVERSAL: "",
+    ROUTER_KYBERSWAP: "",
+    TOKEN_IN_IS_ETH_KYBERSWAP: "",
   },
 };
 
@@ -1432,14 +1432,14 @@ export const GAS_SWAP_TOKEN_SUPPORTED = [
     name: "USD Coin",
     symbol: "USDC",
     decimals: 6,
-    address: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    address: "",
     icon: "/assets/images/swap_supported_token_usdc.png",
   },
   {
     name: "USD Base Coin",
     symbol: "USDbC",
     decimals: 6,
-    address: "0xd9aAEc86B65D86f6A7B5B1b0c42FFA531710b6CA",
+    address: "",
     icon: "/assets/images/swap_supported_token_usdbc.png",
   },
 ];
@@ -1447,34 +1447,6 @@ export const GAS_SWAP_TOKEN_SUPPORTED = [
 export const PROVIDER_GET_DATA = {
   BASE_MAINNET: "https://base-rpc.publicnode.com",
 };
-
-export const testimonials = [
-  {
-    quote: "Collaborating with Adrian was an absolute pleasure",
-  },
-  {
-    quote: "Collaborating with Adrian was an absolute pleasure",
-  },
-  {
-    quote: "Collaborating with Adrian was an absolute pleasure",
-  },
-  {
-    quote: "Collaborating with Adrian was an absolute pleasure",
-  },
-  {
-    quote: "Collaborating with Adrian was an absolute pleasure",
-  },
-];
-
-export const MENU_ITEMS = [
-  { id: "item-nomal", label: "Nomal", dataType: "normal" },
-  { id: "item-vip", label: "VIP", dataType: "vip" },
-  { id: "item-whale", label: "Whale", dataType: "whale" },
-  { id: "item-user", label: "User", dataType: "user" },
-  { id: "item-channel", label: "Channel", dataType: "channel" },
-  { id: "item-token", label: "Token", dataType: "token" },
-  { id: "item-date", label: "Date", dataType: "date" },
-];
 
 export const STRING_VALIDATION = {
   VALID: "Date range is valid.",
